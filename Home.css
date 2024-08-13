@@ -1,0 +1,316 @@
+body{
+    background-color: #000000;
+}
+
+
+.welcome{
+    text-align: center;
+    background-color: #2f2342;
+    border-radius: 20px;
+}
+
+
+p{
+    color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.bar1{
+    height: 0.2cm;
+    width: 7cm;
+    border-radius: 50px;
+    border: solid;
+    border-color: rgba(0, 0, 0, 0.458);
+    background-image: linear-gradient(90deg, rgb(0, 255, 200) 50%, white 30%);
+}
+.bar2{
+    height: 0.2cm;
+    width: 7cm;
+    border-radius: 50px;
+    border: solid;
+    border-color: rgba(0, 0, 0, 0.444);
+    background-image: linear-gradient(90deg, rgb(0, 255, 200) 60%, white 40%);
+}
+.bar3{
+    height: 0.2cm;
+    width: 7cm;
+    border-radius: 50px;
+    border: solid;
+    border-color: rgba(0, 0, 0, 0.383);
+    background-image: linear-gradient(90deg, rgb(0, 255, 200) 98%, white 2%);
+}
+.bar4{
+    height: 0.2cm;
+    width: 7cm;
+    border-radius: 50px;
+    border: solid;
+    border-color: rgba(0, 0, 0, 0.391);
+    background-image: linear-gradient(90deg, rgb(0, 255, 200) 85%, white 15%);
+
+}
+.bar5{
+    height: 0.2cm;
+    width: 7cm;
+    border-radius: 50px;
+    border: solid;
+    border-color: rgba(0, 0, 0, 0.358);
+    background-image: linear-gradient(90deg, rgb(0, 255, 200) 79%, white 21%);
+
+}
+.bar6{
+    height: 0.2cm;
+    width: 7cm;
+    border-radius: 50px;
+    border: solid;
+    border-color: rgba(0, 0, 0, 0.354);
+    background-image: linear-gradient(90deg, rgb(0, 255, 200) 30%, white 0%);
+
+}
+
+
+h1{
+    text-align: center;
+    background-image: linear-gradient(45deg, green 47%, blue 50%, red 55%);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.web{
+    background-color: rgb(46, 46, 46);
+    margin: 1cm;
+    margin-left: 3cm;
+    margin-right: 3cm;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.web_pic{
+    display: inline-table;
+    margin-left: 1cm;
+}
+
+img{
+    height: 7cm;
+    width: 12cm;
+    border-radius: 10px;
+}
+.a{
+    height: 5cm;
+    width: 8cm;
+    border-radius: 10px;
+}
+
+.a :hover{
+    size: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: 0.5s;
+    background-image: url('photos/sky_piercer_by_winterkeep_dheed9j.jpg');
+}
+
+.name{
+    color: rgb(234, 235, 236);
+}
+
+h3{
+    margin-left: 42%;
+    width: 8cm;
+    background-image: linear-gradient(45deg, rgb(128, 0, 0) 22%, rgb(246, 255, 0) 50%, rgb(0, 247, 255) 95%);
+    -webkit-background-clip: text;
+    color: transparent;
+    letter-spacing: 10px;
+    font-family: sans-serif;
+    border-right: 2px solid;
+    border-right-color: rgb(255, 255, 255);
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 4s steps(16), cursor .5s step-end infinite alternate ;
+}
+@keyframes cursor {
+    50% { border-color: transparent; }
+}
+
+@keyframes typing {
+    from { width: 0; }
+}
+
+
+.div{
+    display: inline-table;
+    margin-left: 0.8cm;
+}
+
+span{
+    color: rgb(255, 196, 86);
+}
+
+h2{
+    font-size: 30px;
+    text-align: center;
+    background-image: url('sky_piercer_by_winterkeep_dheed9j.jpg');
+    background-size: 100px;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+h4{
+    color: rgb(137, 53, 53);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 19px;
+}
+
+.footer{
+    display: inline-table;
+    margin-left: 8cm;
+    margin-top: 3cm;
+}
+
+ul{
+    display: inline-table;
+}
+textarea{
+    border-radius: 10px;
+    border: solid;
+    border-color: rgba(0, 0, 0);
+    background-color: black;
+    color: aliceblue;
+    height: 5cm;
+    width: 12cm;
+    margin-bottom: 1cm;
+}
+
+input{
+    height: 1cm;
+    width: 12cm;
+    border: solid;
+    border-color: #1c1d1a;
+    border-bottom-color: rgb(112, 1, 1);
+    background-color: transparent;
+    color: aliceblue;
+    margin-bottom: 1cm;
+}
+
+
+input :focus{
+    border-color: #1c1d1a;
+    border-bottom-color: rgb(0, 0, 0);
+
+}
+
+::placeholder{
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+form{
+    text-align: center;
+}
+button{
+    height: 0.7cm;
+    width: 9cm;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(178, 4, 4);
+    color: rgb(255, 252, 240);
+    box-shadow: 0px 0px 12px 12px rgb(112, 1, 1);
+}
+
+button :hover{
+    background-color: green;
+}
+
+a{
+    color: rgba(225, 216, 119, 0.596);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 13px;
+}
+
+ul li{
+    margin-bottom: 0.5cm;
+}
+
+h6{
+    text-align: center;
+    color: rgba(240, 248, 255, 0.488);
+}
+
+form{
+    border: solid;
+    border-color: transparent;
+    width: 15cm;
+    height: 17cm;
+    border-radius: 20px;
+    margin-top: 1cm;
+    box-shadow: 6px 6px 5px 5px black;
+}
+
+
+@media (max-width: 1024px) {
+    .welcome{
+        border-radius: 5px;
+        margin: auto;
+    }
+    h1{
+        margin: auto;
+        font-size: 20px;
+    }
+    .name{
+        font-size: 15px;
+    }
+    h3{
+        width: 6cm;
+        margin: auto;
+        font-size: 10px;
+    }
+    p{
+        font-size: 12px;
+    }
+    .web{
+        margin: auto;
+    }
+    img{
+        height: 4cm;
+        width: 7cm;
+        margin-left: auto;
+        margin-bottom: 0.5cm;
+    }
+    form{
+        margin: auto;
+        width: 9cm;
+        height: 14cm;
+    }
+    .footer{
+        margin: auto;
+        margin-top: 1cm;
+    }
+    input{
+        height: 0.5cm;
+        width: 8cm;
+        font-size: 10px;
+        margin-bottom: 1cm;
+    }
+    textarea{
+        width: 8cm;
+        height: 5cm;
+        font-size: 10px;
+    }
+    button{
+        width: 6cm;
+    }
+    ::placeholder{
+        font-size: 10px;
+        color: aliceblue;
+    }
+    ul li a{
+        font-size: 10px;
+    }
+    h4{
+        font-size: 15px;
+    }
+    h6{
+        font-size: 10px;
+    }
+}
